@@ -1,0 +1,15 @@
+{
+  "name": "todo-app",
+  "main": "index.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.0",
+    "task-repository": "https://github.com/polymer-practice/ales-task-repository.git",
+    "form-task": "https://github.com/polymer-practice/ales-form-task.git",
+    "task-list": "https://github.com/polymer-practice/ales-task-list.git",
+    "task-element": "https://github.com/polymer-practice/ales-task-element.git"
+  },
+  "devDependencies": {
+    "web-component-tester": "Polymer/web-component-tester#^6.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0"
+  }
+}

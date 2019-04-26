@@ -1,0 +1,31 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../../bower_components/task-repository.html">
+<link rel="import" href="../../bower_components/form-task.html">
+<link rel="import" href="../../bower_components/task-list.html">
+<link rel="import" href="../../bower_components/task-element.html">
+<dom-module id="todo-app-app">
+  <template>
+    <todo-app-app></todo-app>
+      <form-task label-text="Buscar tarea" button-text="Buscar"></form-task>
+  </template>
+
+  <script>
+    /**
+     * @customElement
+     * @polymer
+     */
+    class TodoAppApp extends Polymer.Element {
+      static get is() { return 'todo-app-app'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'todo-app-app'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(TodoAppApp.is, TodoAppApp);
+  </script>
+</dom-module>
